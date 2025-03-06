@@ -4,6 +4,7 @@ import {Helmet} from 'react-helmet';
 import styled from 'styled-components';
 import Logo from './imagenes/propuestaDepartamenteLogo.png'
 import './App.css';
+import Boton from './elementos/Boton';
 
 const ImagenLogo1 = styled.img`
     margin-right: 2%;
@@ -48,7 +49,7 @@ const App=()=> {
       <ContenedorImagen>
       <ImagenLogo1 src={Logo} alt="LogoUamDepartamento" />
       </ContenedorImagen>
-      
+      <Boton>INICIO SESIÓN</Boton>
 
     
 

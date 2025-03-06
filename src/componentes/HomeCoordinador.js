@@ -9,7 +9,7 @@ import Perfil from '../imagenes/HuellaPantera.png'
 import Historico from'../imagenes/Historico.png'
 import Orden from '../imagenes/orden.png'
 import Usuario from '../imagenes/usuario.png'
-import ActualizaCredenciales from '../imagenes/ActualizaciónCredencial2.png'
+import ActualizaCredenciales from '../imagenes/ActualizaciónCredencial2.png'
 import Reporte from '../imagenes/reporte.png';
 import Aviso from '../imagenes/aviso.png'
 import Permiso from '../imagenes/permiso.png'
@@ -17,7 +17,7 @@ import Prestamo from '../imagenes/Prestamo.png'
 
 const ImagenLogo1 = styled.img`
     margin-right: 2%;
-    width: 35%; /* La imagen es un 30% más pequeña */
+    width: 10%; /* La imagen es un 30% más pequeña */
     @media (max-width: 768px) {
        margin-top: -400px; 
         width: 40%; /* Ocupa todo el ancho del contenedor en pantallas pequeñas */
